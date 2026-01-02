@@ -44,7 +44,7 @@ main {
 h1 {
     font-size: 50px;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    margin-left: 24%;
+    margin-left: 30%;
     margin-top: 50px;
 }
 
@@ -57,7 +57,7 @@ h1 {
     border-radius: 20px;
     margin-top: 32px;
     padding-top: 28px;
-    padding-left: 81px;
+    padding-left: 17%;
     padding-bottom: 31px;
     background: #e5ff42;
 }
