@@ -463,19 +463,19 @@ span {
     }
 
     main {
-        width: 80%;
+        width: 85%;
         text-align: center;
         border: 5px solid rgb(251, 251, 231);
         border-radius: 30px;
         background-color: rgb(244, 244, 184);
-        margin-left: 10%;
+        margin-left: 7%;
         margin-top: 30px;
         margin-bottom: 70px;
     }
 
     .flexa {
         width: 59px;
-        margin-left: 30px;
+        margin-left: 28px;
     }
 
     #imagem-de {
@@ -489,7 +489,7 @@ span {
     }
 
     h1 {
-        font-size: 37px;
+        font-size: 201%;
         text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
         margin-left: 3%;
         margin-top: 29px;
@@ -499,12 +499,12 @@ span {
         display: flex;
         text-align: start;
         flex-direction: row;
-        gap: 65px;
+        gap: 14px;
         border: 4px solid rgb(255, 255, 157);
         border-radius: 20px;
         margin-top: 32px;
         padding-top: 28px;
-        padding-left: 0px;
+        padding-left: 18px;
         padding-bottom: 31px;
         background: #e5ff42;
     }
@@ -588,20 +588,22 @@ span {
         text-align: center;
         display: flex;
         padding-top: 1px;
-        margin-left: 19px;
+        margin-left: 2%;
         flex-direction: column;
         gap: 10px;
         font-size: 13px;
+        overflow: hidden;
     }
 
     .atributos-2 {
         text-align: center;
         display: flex;
         padding-top: 1px;
-        margin-right: 18px;
+        margin-right: 2%;
         flex-direction: column;
         gap: 10px;
         font-size: 13px;
+        overflow: hidden;
     }
 
 }

@@ -55,7 +55,7 @@ function convertValues() {
     if (fromCurrency === "CNY") {
         valueInBRL = inputValue * 0.69;
         document.querySelector("#moeda-de").textContent = "Yuan";
-        document.querySelector("#imagem-de").src = "assets/Japão.gif";
+        document.querySelector("#imagem-de").src = "assets/China.gif";
     }
 
     if (fromCurrency === "COP") {
