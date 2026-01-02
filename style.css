@@ -8,7 +8,9 @@
 body {
     background: linear-gradient(to bottom, #ffd700, #fff2a8);
 }
-html, body{
+
+html,
+body {
     overflow: hidden;
     height: 800px;
 }
@@ -42,7 +44,7 @@ main {
 h1 {
     font-size: 50px;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    margin-left: 30%;
+    margin-left: 24%;
     margin-top: 50px;
 }
 
@@ -50,13 +52,14 @@ h1 {
     display: flex;
     text-align: start;
     flex-direction: row;
-    gap: 423px;
-    border: 4px solid rgb(251, 251, 231);
+    gap: 345px;
+    border: 4px solid rgb(255, 255, 157);
     border-radius: 20px;
     margin-top: 32px;
     padding-top: 28px;
-    padding-left: 196px;
+    padding-left: 81px;
     padding-bottom: 31px;
+    background: #e5ff42;
 }
 
 .flex {
@@ -86,6 +89,7 @@ h1 {
     appearance: none;
     width: 170px;
     height: 30px;
+    font-size: auto;
 }
 
 label {
@@ -93,9 +97,10 @@ label {
 }
 
 .input-currency {
-   width: 233px;
+    width: 233px;
     height: 35px;
     border-radius: 10px;
+    font-size: auto;
 }
 
 span {
@@ -143,4 +148,778 @@ span {
     margin-right: 25px;
     flex-direction: column;
     gap: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    html,
+    body {
+        overflow: hidden;
+        height: 800px;
+    }
+
+    main {
+        width: 80%;
+        text-align: center;
+        border: 5px solid rgb(251, 251, 231);
+        border-radius: 30px;
+        background-color: rgb(244, 244, 184);
+        margin-left: 10%;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .flexa {
+        width: 100px;
+        margin-left: 75px;
+    }
+
+    #imagem-de {
+        width: 100px;
+        height: 70px;
+    }
+
+    #imagem-para {
+        width: 100px;
+        height: 70px;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        margin-left: 13%;
+        margin-top: 50px;
+    }
+
+    .resultado {
+        display: flex;
+        text-align: start;
+        flex-direction: row;
+        gap: 100px;
+        border: 4px solid rgb(255, 255, 157);
+        border-radius: 20px;
+        margin-top: 32px;
+        padding-top: 28px;
+        padding-left: 53px;
+        padding-bottom: 31px;
+        background: #e5ff42;
+    }
+
+    .flex {
+        display: flex;
+        padding: 40px 100px 0px;
+        padding-left: 6px;
+    }
+
+    .meio {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-left: 8px;
+    }
+
+    .label {
+        font-size: 25px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        width: 162px;
+    }
+
+    #from-currency {
+        appearance: none;
+        width: 170px;
+        height: 30px;
+    }
+
+    #to-currency {
+        appearance: none;
+        width: 170px;
+        height: 30px;
+        font-size: auto;
+    }
+
+    label {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .input-currency {
+        width: 233px;
+        height: 35px;
+        border-radius: 10px;
+        font-size: auto;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .convert-button {
+        width: 253px;
+        height: 52px;
+        border-radius: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        background: #9f2e2e;
+        border: 3px solid #490000;
+        transition: 0.3s;
+    }
+
+    .convert-button:hover {
+        background-color: #9a4949;
+        border: 3px solid #481616;
+    }
+
+    .convert-button:active {
+        background-color: #7e6262;
+        border: 3px solid #462323;
+    }
+
+    .valores {
+        display: flex;
+    }
+
+    .atributos {
+        text-align: center;
+        display: flex;
+        padding-top: 8px;
+        margin-left: 25px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .atributos-2 {
+        text-align: center;
+        display: flex;
+        padding-top: 8px;
+        margin-right: 25px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+
+    html,
+    body {
+        overflow: hidden;
+        height: 800px;
+    }
+
+    main {
+        width: 80%;
+        text-align: center;
+        border: 5px solid rgb(251, 251, 231);
+        border-radius: 30px;
+        background-color: rgb(244, 244, 184);
+        margin-left: 10%;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .flexa {
+        width: 100px;
+        margin-left: 17px;
+    }
+
+    #imagem-de {
+        width: 100px;
+        height: 70px;
+    }
+
+    #imagem-para {
+        width: 100px;
+        height: 70px;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        margin-left: 3%;
+        margin-top: 50px;
+    }
+
+    .resultado {
+        display: flex;
+        text-align: start;
+        flex-direction: row;
+        gap: 65px;
+        border: 4px solid rgb(255, 255, 157);
+        border-radius: 20px;
+        margin-top: 32px;
+        padding-top: 28px;
+        padding-left: 9px;
+        padding-bottom: 31px;
+        background: #e5ff42;
+    }
+
+    .flex {
+        display: flex;
+        padding: 40px 100px 0px;
+        padding-left: 42px;
+    }
+
+    .meio {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-left: 8px;
+    }
+
+    .label {
+        font-size: 15px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        width: 113px;
+    }
+
+    #from-currency {
+        appearance: none;
+        width: 114px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    #to-currency {
+        appearance: none;
+        width: 114px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    label {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .input-currency {
+        width: 143px;
+        height: 24px;
+        border-radius: 10px;
+        font-size: 8px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .convert-button {
+        width: 145px;
+        height: 42px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 700;
+        background: #9f2e2e;
+        border: 3px solid #490000;
+        transition: 0.3s;
+    }
+
+    .convert-button:hover {
+        background-color: #9a4949;
+        border: 3px solid #481616;
+    }
+
+    .convert-button:active {
+        background-color: #7e6262;
+        border: 3px solid #462323;
+    }
+
+    .valores {
+        display: flex;
+    }
+
+    .atributos {
+        text-align: center;
+        display: flex;
+        padding-top: 8px;
+        margin-left: 25px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .atributos-2 {
+        text-align: center;
+        display: flex;
+        padding-top: 8px;
+        margin-right: 25px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+
+
+
+@media (max-width: 450px) {
+
+
+    html,
+    body {
+        overflow: hidden;
+        height: 800px;
+    }
+
+    main {
+        width: 80%;
+        text-align: center;
+        border: 5px solid rgb(251, 251, 231);
+        border-radius: 30px;
+        background-color: rgb(244, 244, 184);
+        margin-left: 10%;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .flexa {
+        width: 59px;
+        margin-left: 30px;
+    }
+
+    #imagem-de {
+        width: 80px;
+        height: 60px;
+    }
+
+    #imagem-para {
+        width: 80px;
+        height: 60px;
+    }
+
+    h1 {
+        font-size: 37px;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        margin-left: 3%;
+        margin-top: 29px;
+    }
+
+    .resultado {
+        display: flex;
+        text-align: start;
+        flex-direction: row;
+        gap: 65px;
+        border: 4px solid rgb(255, 255, 157);
+        border-radius: 20px;
+        margin-top: 32px;
+        padding-top: 28px;
+        padding-left: 0px;
+        padding-bottom: 31px;
+        background: #e5ff42;
+    }
+
+    .flex {
+        display: flex;
+        padding: 23px 0px 0px;
+        padding-left: 0px;
+    }
+
+
+    .meio {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-left: 8px;
+    }
+
+    .label {
+        font-size: 11px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        width: 113px;
+    }
+
+    #from-currency {
+        appearance: none;
+        width: 95px;
+        height: 22px;
+        font-size: 10px;
+    }
+
+    #to-currency {
+        appearance: none;
+        width: 95px;
+        height: 22px;
+        font-size: 10px;
+    }
+
+    label {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .input-currency {
+        width: 121px;
+        height: 24px;
+        border-radius: 10px;
+        font-size: 7px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .convert-button {
+        width: 125px;
+        height: 39px;
+        border-radius: 30px;
+        font-size: 15px;
+        font-weight: 700;
+        background: #9f2e2e;
+        border: 3px solid #490000;
+        transition: 0.3s;
+    }
+
+    .convert-button:hover {
+        background-color: #9a4949;
+        border: 3px solid #481616;
+    }
+
+    .convert-button:active {
+        background-color: #7e6262;
+        border: 3px solid #462323;
+    }
+
+    .valores {
+        display: flex;
+    }
+
+    .atributos {
+        text-align: center;
+        display: flex;
+        padding-top: 1px;
+        margin-left: 19px;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 13px;
+    }
+
+    .atributos-2 {
+        text-align: center;
+        display: flex;
+        padding-top: 1px;
+        margin-right: 18px;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+@media (max-width: 301px) {
+
+
+    html,
+    body {
+        overflow: hidden;
+        height: 800px;
+    }
+
+    main {
+        width: 89%;
+        text-align: center;
+        border: 5px solid rgb(251, 251, 231);
+        border-radius: 30px;
+        background-color: rgb(244, 244, 184);
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .flexa {
+        width: 67%;
+        margin-left: 7%;
+    }
+
+    #imagem-de {
+        width: 55px;
+        height: 40px;
+    }
+
+    #imagem-para {
+        width: 55px;
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 151%;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        margin-left: 3%;
+        margin-top: 29px;
+    }
+
+    .resultado {
+        display: flex;
+        text-align: start;
+        flex-direction: row;
+        gap: 52px;
+        border: 4px solid rgb(255, 255, 157);
+        border-radius: 20px;
+        margin-top: 32px;
+        padding-top: 28px;
+        padding-left: 0px;
+        padding-bottom: 10%;
+        background: #e5ff42;
+    }
+
+    .flex {
+        display: flex;
+        padding: 8% 0px 0px;
+        padding-left: 0px;
+    }
+
+
+    .meio {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-left: 8px;
+    }
+
+    .label {
+        font-size: 10px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        width: 95%;
+    }
+
+    #from-currency {
+        appearance: none;
+        width: 95px;
+        height: 22px;
+        font-size: 10px;
+    }
+
+    #to-currency {
+        appearance: none;
+        width: 95px;
+        height: 22px;
+        font-size: 10px;
+    }
+
+    label {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .input-currency {
+        width: 150%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 5px;
+        margin-left: -30%;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .convert-button {
+        width: 114%;
+        height: 23px;
+        border-radius: 30px;
+        font-size: 9px;
+        font-weight: 600;
+        background: #9f2e2e;
+        border: 3px solid #490000;
+        transition: 0.3s;
+        margin-left: -11%;
+    }
+
+    .convert-button:hover {
+        background-color: #9a4949;
+        border: 3px solid #481616;
+    }
+
+    .convert-button:active {
+        background-color: #7e6262;
+        border: 3px solid #462323;
+    }
+
+    .valores {
+        display: flex;
+    }
+
+    .atributos {
+        text-align: center;
+        display: flex;
+        padding-top: 0px;
+        margin-left: 15px;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 11px;
+    }
+
+    .atributos-2 {
+        text-align: center;
+        display: flex;
+        padding-top: 0px;
+        margin-right: 17px;
+        flex-direction: column;
+        gap: 7px;
+        font-size: 11px;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 370px) {
+
+
+    html,
+    body {
+        overflow: hidden;
+        height: 800px;
+    }
+
+    main {
+        width: 89%;
+        text-align: center;
+        border: 5px solid rgb(251, 251, 231);
+        border-radius: 30px;
+        background-color: rgb(244, 244, 184);
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .flexa {
+        width: 56%;
+        margin-left: 18%;
+
+    }
+
+    #imagem-de {
+        width: 55px;
+        height: 40px;
+    }
+
+    #imagem-para {
+        width: 55px;
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 151%;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        margin-left: 13%;
+        margin-top: 29px;
+    }
+
+    .resultado {
+        display: flex;
+        text-align: start;
+        flex-direction: row;
+        gap: 52px;
+        border: 4px solid rgb(255, 255, 157);
+        border-radius: 20px;
+        margin-top: 32px;
+        padding-top: 28px;
+        padding-left: 12%;
+        padding-bottom: 10%;
+        background: #e5ff42;
+    }
+
+    .flex {
+        display: flex;
+        padding: 8% 0px 0px;
+        padding-left: 0px;
+    }
+
+
+    .meio {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-left: 8px;
+    }
+
+    .label {
+        font-size: 10px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        width: 95%;
+    }
+
+    #from-currency {
+        appearance: none;
+        width: 95px;
+        height: 22px;
+        font-size: 10px;
+    }
+
+    #to-currency {
+        appearance: none;
+        width: 95px;
+        height: 22px;
+        font-size: 10px;
+    }
+
+    label {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .input-currency {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 7px;
+        margin-left: -6%;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .convert-button {
+        width: 114%;
+        height: 23px;
+        border-radius: 30px;
+        font-size: 9px;
+        font-weight: 600;
+        background: #9f2e2e;
+        border: 3px solid #490000;
+        transition: 0.3s;
+        margin-left: -11%;
+    }
+
+    .convert-button:hover {
+        background-color: #9a4949;
+        border: 3px solid #481616;
+    }
+
+    .convert-button:active {
+        background-color: #7e6262;
+        border: 3px solid #462323;
+    }
+
+    .valores {
+        display: flex;
+    }
+
+    .atributos {
+        text-align: center;
+        display: flex;
+        padding-top: 0px;
+        margin-left: 15px;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 11px;
+    }
+
+    .atributos-2 {
+        text-align: center;
+        display: flex;
+        padding-top: 0px;
+        margin-right: 17px;
+        flex-direction: column;
+        gap: 7px;
+        font-size: 11px;
+    }
+
 }
