@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+
+
+    <h1>Conversor de Moedas</h1>
+    <main>
+        <section class="flex">
+            <label class="label">Converter <b>de</b>
+                <select id="from-currency">
+                    <option value="BRL">R$ Real Brasileiro</option>
+                    <option value="USD">$ Dólar Americano</option>
+                    <option value="EUR">€ Euro Europeu</option>
+                    <option value="ARS">$ Peso Argentino</option>
+                    <option value="QAR">﷼ Rial Catarense</option>
+                    <option value="VES">Bs. Bolívar Venezuelano</option>
+                    <option value="CNY">¥ Yuan Chinês</option>
+                    <option value="COP">$ Peso Colombiano</option>
+                    <option value="EGP">E£ Libra Egípcia</option>
+                    <option value="INR">₹ Rúpia Indiana</option>
+                    <option value="JPY">¥ Iene Japônes</option>
+                    <option value="MXN">$ Peso Mexicano</option>
+                    <option value="GBP">£ Libra Esterlina</option>
+                    <option value="RUB">₽ Rublo Russo</option>
+                    <option value="TRY">₺ Lira Turca</option>
+                </select>
+            </label>
+
+            <div class="meio">
+                <img class="flexa" src="assets/Flexa.png">
+
+                <label>
+                    <input type="number" class="input-currency" placeholder="Digite aqui o valor da conversão">
+                </label>
+                <button class="convert-button">
+                    Converter
+                </button>
+            </div>
+
+
+            <label class="label">Converter <b>para</b>
+                <select id="to-currency">
+                    <option value="BRL">R$ Real Brasileiro</option>
+                    <option value="USD">$ Dólar Americano</option>
+                    <option value="EUR">€ Euro Europeu</option>
+                    <option value="ARS">$ Peso Argentino</option>
+                    <option value="QAR">﷼ Rial Catarense</option>
+                    <option value="VES">Bs. Bolívar Venezuelano</option>
+                    <option value="CNY">¥ Yuan Chinês</option>
+                    <option value="COP">$ Peso Colombiano</option>
+                    <option value="EGP">E£ Libra Egípcia</option>
+                    <option value="INR">₹ Rúpia Indiana</option>
+                    <option value="JPY">¥ Iene Japônes</option>
+                    <option value="MXN">$ Peso Mexicano</option>
+                    <option value="GBP">£ Libra Esterlina</option>
+                    <option value="RUB">₽ Rublo Russo</option>
+                    <option value="TRY">₺ Lira Turca</option>
+                </select>
+            </label>
+        </section>
+
+        <section class="resultado">
+            <section class="valores">
+                <img id="imagem-de" src="assets/Brasil.gif">
+                <div class="atributos">
+                    <p id="moeda-de">Real</p>
+                    <p id="valor-de">R$ 0,00</p>
+                </div>
+            </section>
+
+            <section class="valores">
+                <div class="atributos-2">
+                    <p id="moeda-para">Dólar</p>
+                    <p id="valor-para">US$ 0,00</p>
+                </div>
+                <img id="imagem-para" src="assets/EUA.gif">
+            </section>
+        </section>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

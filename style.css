@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffd700, #fff2a8);
+}
+html, body{
+    overflow: hidden;
+    height: 800px;
+}
+
+main {
+    width: 80%;
+    text-align: center;
+    border: 5px solid rgb(251, 251, 231);
+    border-radius: 30px;
+    background-color: rgb(244, 244, 184);
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.flexa {
+    width: 100px;
+    margin-left: 75px;
+}
+
+#imagem-de {
+    width: 100px;
+    height: 70px;
+}
+
+#imagem-para {
+    width: 100px;
+    height: 70px;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.resultado {
+    display: flex;
+    text-align: start;
+    flex-direction: row;
+    gap: 423px;
+    border: 4px solid rgb(251, 251, 231);
+    border-radius: 20px;
+    margin-top: 32px;
+    padding-top: 28px;
+    padding-left: 196px;
+    padding-bottom: 31px;
+}
+
+.flex {
+    display: flex;
+    padding: 40px 100px 0px;
+    padding-left: 125px;
+}
+
+.meio {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.label {
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#from-currency {
+    appearance: none;
+    width: 170px;
+    height: 30px;
+}
+
+#to-currency {
+    appearance: none;
+    width: 170px;
+    height: 30px;
+}
+
+label {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.input-currency {
+   width: 233px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.convert-button {
+    width: 253px;
+    height: 52px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #9f2e2e;
+    border: 3px solid #490000;
+    transition: 0.3s;
+}
+
+.convert-button:hover {
+    background-color: #9a4949;
+    border: 3px solid #481616;
+}
+
+.convert-button:active {
+    background-color: #7e6262;
+    border: 3px solid #462323;
+}
+
+.valores {
+    display: flex;
+}
+
+.atributos {
+    text-align: center;
+    display: flex;
+    padding-top: 8px;
+    margin-left: 25px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.atributos-2 {
+    text-align: center;
+    display: flex;
+    padding-top: 8px;
+    margin-right: 25px;
+    flex-direction: column;
+    gap: 10px;
+}
